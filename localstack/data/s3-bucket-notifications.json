@@ -1,0 +1,6 @@
+{
+  "QueueConfiguration": {
+    "Event": "s3:ObjectCreated:*",
+    "Queue": "arn:aws:sqs:eu-west-1:000000000000:s3-notifications-queue"
+  }
+}

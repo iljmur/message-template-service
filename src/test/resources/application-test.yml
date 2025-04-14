@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: message-template-service
+
+cloud:
+  aws:
+    region:
+      static: eu-west-1
+    credentials:
+      access-key: dummy
+      secret-key: dummy
+    endpoint:
+      s3: http://localhost:4566
+      sqs: http://localhost:4566
+
+logging:
+  level:
+    ROOT: INFO
+
+custom:
+  test-profile: "✅ application-test.yml LOADED"

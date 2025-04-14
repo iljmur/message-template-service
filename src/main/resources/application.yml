@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: message-template-service
+  main:
+    allow-bean-definition-overriding: true
+
+cloud:
+  aws:
+    region:
+      static: eu-west-1
+    credentials:
+      access-key: dummy
+      secret-key: dummy
+    endpoint:
+      sqs: http://localstack:4566
+      s3: http://localstack:4566
